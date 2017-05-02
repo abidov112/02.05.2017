@@ -1,0 +1,11 @@
+    var gunluk_gelir=(parseINT(prompt("gunluk geliri yazin")));
+    var gun_sayi=(parseINT(prompt("gun sayini yazin")));
+    var brut_gelir=(gunluk_gelir*gun_sayi);
+    if(brut_gelir>=1000){
+    var faiz=(brut_gelir*0.18)
+    }else{
+    var faiz=(brut_gelir*0.04)
+    }
+    var net_gelir=(brut_gelir-faiz)
+    console.log(faiz)
+    console.log(net_gelir)
